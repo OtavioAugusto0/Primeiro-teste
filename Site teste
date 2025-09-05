@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULO</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        h1{
+        border: 2px solid rgb(87, 108, 179);
+        margin: 12px;
+        padding: 5px;
+        color:rgb(21, 21, 24);
+       font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+
+    p{
+        font-size: 1rem;
+        padding: 5px;
+        margin: 10px;
+        color:rgb(21, 21, 24);
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+    }
+
+    h2{
+        border: 2px solid rgb(87, 108, 179);
+        margin: 12px;
+        padding: 5px;
+        color:rgb(21, 21, 24);
+       font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+
+    img {
+  display: block; /* Transforma a imagem em um elemento de bloco */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+body{
+    background-color: #F4F0EA;
+    color: #798252;
+    display:flex;
+    flex-direction: column;
+    gap: 1.0rem;
+
+    h2{
+        border: 2px solid rgb(87, 108, 179);
+        margin: 12px;
+        padding: 5px;
+        color:rgb(21, 21, 24);
+       font-family: "Montserrat", sans-serif;
+        text-align: center;
+
+    }
+
+     ul{
+    font-size: 1rem;
+        padding: 5px;
+        margin: 10px;
+        color:rgb(21, 21, 24);
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+  }
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+   
+coluna {
+  width: 50%;
+  float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .coluna {
+    width: 100%; 
+    float: none;
+  }
+
+ 
+}
+
+    </style>
+</head>
+    <h1>OTÁVIO AUGUSTO</h1>
+<body>
+    <p>Este é o meu site mostrando um pouco de mim, simulando um currículo</p>
+    <p><strong>Mas afinal, quem sou eu?</strong></p>
+    <img src="_img_galeria_107.jpg" alt="Cascading Style Sheets" width="200">
+    <p>(Imagem onde eu(à esquerda) e alguns amigos estamos "presos" no Kidzania, SP)</p>
+    <hr>
+    <h2>Quem é Otávio?</h2>
+        <p>Otávio Augusto de Sá Camara nasceu em 23 de junho de 2007, em Santos/SP, contudo, viveu e vive sua vida inteira em São Vicente. Desde pequeno, sempre demonstrou seu amor por computadores e pela internet, por influência de seu irmão. Passava horas assistindo vídeos no youtube, até que com nove anos de idade, tenta fazer seu próprio canal, óbviamente, sem sucesso.</p>
+    <br>
+        <p>Depois de anos tentando, criando cerca de 3 canais, desiste de seu sonho eminente e foca em seus estudos na escola. Sempre foi uma pessoa mais ligada a área de humanas, mas sempre achou interessante e vivia se desafiando nas áreas de exatas. Ele ficou o ensino médio inteiro sem saber o que gostaria de cursar pós-escola, até que, por ideia de sua mãe e de, novamente, seu irmão, ele decide naquele momento que iria se formar em Ciência da computação, tanto que seu TCC na escola foi sobre a segurança nso dispositivos móveis.</p>
+        <p>Porém, novamente a dúvida de sua vocação aparece. Querendo continuar com sua paixão em web mais o seu desejo em se desafiar, Otávio decide fazer Engenharia da Computação.</p>
+    <br>
+
+    <h2>HOBBIES</h2>
+    <ul> 
+        <li>~Tocar violao~</li>
+    <br>
+        <li>~Jogar no play5~</li>
+    <br>
+        <li>~Ler livros sobre filosofia e Deus~</li>
+    <br>
+        <li>~Aprender sobre coisas novas~</li>
+    <br>
+    </ul>
+
+    <h2>LOCAIS POR ONDE PASSOU</h2>
+    <ul> 
+        <li>~Colégio Passionista São Gabriel, São Vicente (2012-2021)~</li>
+    <br>
+        <li>~Colégio Passionista Santa Maria, Praia Grande (2022-2024)~</li>
+    <br>
+        <li>~Universidade Santa Cecília, Santos (2025-)~</li>
+    <br>
+     
+    </ul>
+
+    <h2>ONDE ME ENCONTRAR</h2>
+    <a href="https://www.instagram.com/augusto.otavio_" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Meu instagram" width="200">
+  </a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p>Feito por Otávio Augusto.</p>
+</body>
+</html>
